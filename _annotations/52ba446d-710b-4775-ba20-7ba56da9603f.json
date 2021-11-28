@@ -1,0 +1,34 @@
+---
+canvas: "https://cdm17272.contentdm.oclc.org/digital/iiif/agdm/14057/canvas/c0"
+order: 2
+---
+{
+    "type": "Annotation",
+    "body": [
+        {
+            "type": "TextualBody",
+            "value": "#tombeaudenapoleon",
+            "purpose": "tagging",
+            "creator": {
+                "id": "kylamj",
+                "name": "Kyla"
+            },
+            "created": "2021-11-28T21:12:22.833Z",
+            "modified": "2021-11-28T21:12:28.536Z"
+        }
+    ],
+    "target": {
+        "source": "https://cdm17272.contentdm.oclc.org/digital/iiif/agdm/14057/canvas/c0",
+        "selector": {
+            "type": "FragmentSelector",
+            "conformsTo": "http://www.w3.org/TR/media-frags/",
+            "value": "xywh=pixel:3502.20703125,3546.20556640625,247.426025390625,258.099365234375"
+        },
+        "dcterms:isPartOf": {
+            "id": "https://dnoneill.github.io/annotate/manifests/parismap.json",
+            "type": "Manifest"
+        }
+    },
+    "@context": "http://www.w3.org/ns/anno.jsonld",
+    "id": "52ba446d-710b-4775-ba20-7ba56da9603f.json"
+}
