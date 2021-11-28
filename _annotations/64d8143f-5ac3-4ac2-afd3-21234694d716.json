@@ -15,6 +15,17 @@ order: 1
             },
             "created": "2021-11-28T21:23:45.755Z",
             "modified": "2021-11-28T21:23:47.474Z"
+        },
+        {
+            "type": "TextualBody",
+            "value": "sailboat",
+            "purpose": "tagging",
+            "creator": {
+                "id": "kylamj",
+                "name": "Kyla"
+            },
+            "created": "2021-11-28T21:23:57.641Z",
+            "modified": "2021-11-28T21:23:59.201Z"
         }
     ],
     "target": {
