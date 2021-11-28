@@ -1,0 +1,34 @@
+---
+canvas: "https://iiif.library.utoronto.ca/presentation/v2/broadsides:CAP01348/canvas/broadsides:CAP01348_0004"
+order: 1
+---
+{
+    "type": "Annotation",
+    "body": [
+        {
+            "type": "TextualBody",
+            "value": "Wolfe's Cove",
+            "purpose": "tagging",
+            "creator": {
+                "id": "kylamj",
+                "name": "Kyla"
+            },
+            "created": "2021-11-28T21:23:45.755Z",
+            "modified": "2021-11-28T21:23:47.474Z"
+        }
+    ],
+    "target": {
+        "source": "https://iiif.library.utoronto.ca/presentation/v2/broadsides:CAP01348/canvas/broadsides:CAP01348_0004",
+        "selector": {
+            "type": "FragmentSelector",
+            "conformsTo": "http://www.w3.org/TR/media-frags/",
+            "value": "xywh=pixel:446.8423156738281,498.2889099121094,2071.017303466797,3044.4913635253906"
+        },
+        "dcterms:isPartOf": {
+            "id": "https://iiif.library.utoronto.ca/presentation/v2/broadsides:CAP01348/manifest",
+            "type": "Manifest"
+        }
+    },
+    "@context": "http://www.w3.org/ns/anno.jsonld",
+    "id": "64d8143f-5ac3-4ac2-afd3-21234694d716.json"
+}
