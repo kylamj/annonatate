@@ -1,0 +1,34 @@
+---
+canvas: "https://iiif.library.utoronto.ca/presentation/v2/chamberlin:Chamberlin_k_0225/canvas/chamberlin:Chamberlin_k_0225"
+order: 1
+---
+{
+    "type": "Annotation",
+    "body": [
+        {
+            "type": "TextualBody",
+            "value": "coneflower",
+            "purpose": "tagging",
+            "creator": {
+                "id": "kylamj",
+                "name": "Kyla"
+            },
+            "created": "2021-11-28T21:13:52.822Z",
+            "modified": "2021-11-28T21:13:53.885Z"
+        }
+    ],
+    "target": {
+        "source": "https://iiif.library.utoronto.ca/presentation/v2/chamberlin:Chamberlin_k_0225/canvas/chamberlin:Chamberlin_k_0225",
+        "selector": {
+            "type": "FragmentSelector",
+            "conformsTo": "http://www.w3.org/TR/media-frags/",
+            "value": "xywh=pixel:434.5752258300781,3446.491455078125,1067.1231384277344,971.965576171875"
+        },
+        "dcterms:isPartOf": {
+            "id": "https://iiif.library.utoronto.ca/presentation/v2/chamberlin:Chamberlin_k_0225/manifest",
+            "type": "Manifest"
+        }
+    },
+    "@context": "http://www.w3.org/ns/anno.jsonld",
+    "id": "0d83ec32-6738-4b5a-aa60-c06513f58823.json"
+}
