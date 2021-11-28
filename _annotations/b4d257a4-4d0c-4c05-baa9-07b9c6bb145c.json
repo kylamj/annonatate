@@ -1,0 +1,34 @@
+---
+canvas: "https://iiif.library.utoronto.ca/presentation/v2/barrenlands:P10124/canvas/barrenlands:P10124_0001"
+order: 2
+---
+{
+    "type": "Annotation",
+    "body": [
+        {
+            "type": "TextualBody",
+            "value": "Tyrrell",
+            "purpose": "tagging",
+            "creator": {
+                "id": "kylamj",
+                "name": "Kyla"
+            },
+            "created": "2021-11-28T21:17:23.271Z",
+            "modified": "2021-11-28T21:17:24.303Z"
+        }
+    ],
+    "target": {
+        "source": "https://iiif.library.utoronto.ca/presentation/v2/barrenlands:P10124/canvas/barrenlands:P10124_0001",
+        "selector": {
+            "type": "FragmentSelector",
+            "conformsTo": "http://www.w3.org/TR/media-frags/",
+            "value": "xywh=pixel:1900.878173828125,932.2412109375,676.409912109375,403.5234375"
+        },
+        "dcterms:isPartOf": {
+            "id": "https://iiif.library.utoronto.ca/presentation/v2/barrenlands:P10124/manifest",
+            "type": "Manifest"
+        }
+    },
+    "@context": "http://www.w3.org/ns/anno.jsonld",
+    "id": "b4d257a4-4d0c-4c05-baa9-07b9c6bb145c.json"
+}
