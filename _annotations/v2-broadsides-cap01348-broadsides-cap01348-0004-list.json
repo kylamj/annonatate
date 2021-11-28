@@ -1,0 +1,9 @@
+---
+canvas_id: "https://iiif.library.utoronto.ca/presentation/v2/broadsides:CAP01348/canvas/broadsides:CAP01348_0004"
+---
+{% assign annotations = site.annotations | where: "canvas", page.canvas_id | sort: "order" | map: "content" %}
+{
+"@context": "http://iiif.io/api/presentation/2/context.json",
+"id": "{{ site.url }}{{ site.baseurl }}{{page.url}}",
+"type": "AnnotationPage",
+"items": [{{ annotations | join: ","}}] }
