@@ -1,0 +1,34 @@
+---
+canvas: "https://iiif.library.utoronto.ca/presentation/v2/barrenlands:P10124/canvas/barrenlands:P10124_0001"
+order: 4
+---
+{
+    "type": "Annotation",
+    "body": [
+        {
+            "type": "TextualBody",
+            "value": "canoe",
+            "purpose": "tagging",
+            "creator": {
+                "id": "kylamj",
+                "name": "Kyla"
+            },
+            "created": "2021-11-28T21:17:49.661Z",
+            "modified": "2021-11-28T21:17:50.003Z"
+        }
+    ],
+    "target": {
+        "source": "https://iiif.library.utoronto.ca/presentation/v2/barrenlands:P10124/canvas/barrenlands:P10124_0001",
+        "selector": {
+            "type": "FragmentSelector",
+            "conformsTo": "http://www.w3.org/TR/media-frags/",
+            "value": "xywh=pixel:661.2770385742188,1147.066650390625,2662.0942993164062,449.9722900390625"
+        },
+        "dcterms:isPartOf": {
+            "id": "https://iiif.library.utoronto.ca/presentation/v2/barrenlands:P10124/manifest",
+            "type": "Manifest"
+        }
+    },
+    "@context": "http://www.w3.org/ns/anno.jsonld",
+    "id": "65d61c2c-ab91-4b37-ae79-80709d191676.json"
+}
